@@ -1,7 +1,10 @@
 footer {
   padding-top: 1em;
   padding-bottom: 1em;
-  background-color: aliceblue;
+  background-color: aqua;
+}
+h4{
+  color: aqua;
 }
 
 #red-label{
@@ -14,4 +17,10 @@ footer {
 
 #blue-label{
   color: blue;
+}
+
+button:not(:disabled){
+  cursor: pointer;
+  background: aqua;
+  border: 0;
 }

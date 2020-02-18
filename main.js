@@ -18,3 +18,14 @@ document.querySelector('#green').addEventListener('touchend', updateColor)
 
 // call the handler 
 updateColor() 
+document.getElementById("mybtn").addEventListener("click",myfunction1);
+
+function myfunction1(){
+  alert("Hello");
+}
+
+document.getElementById("mybtn1").addEventListener("click",myfunction2);
+
+function myfunction2(){
+  alert("Hello");
+}
